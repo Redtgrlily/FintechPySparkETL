@@ -39,6 +39,7 @@ env/
 spark-3.5.1-bin-hadoop3/
 spark-3.5.1-bin-hadoop3.tgz
 
+
 # Data files (generated or sensitive)
 data/sample_transactions.csv
 data/output/
