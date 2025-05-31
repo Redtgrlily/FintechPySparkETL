@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 
+
 spark = SparkSession.builder.appName("FraudETL").getOrCreate()
 
 df = spark.read.csv("data/transactions.csv", header=True, inferSchema=True)

@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+
 st.set_page_config(page_title="Fraud Detection Dashboard", layout="wide")
 
 df = pd.read_csv("transactions.csv")
