@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Spark/Parquet temp/output
+*.crc
+*.parquet
+*/_SUCCESS
+*/_STARTED
+*/_logs/
+*/_committed_*
+*/_temporary/
+*/_metadata/
+
+# Spark binaries (don't track)
+spark-3.5.1-bin-hadoop3/
+spark-3.5.1-bin-hadoop3.tgz
+
+# Data files (generated or sensitive)
+data/sample_transactions.csv
+data/output/
+spark-warehouse/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# System
+Thumbs.db
+ehthumbs.db
